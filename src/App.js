@@ -1,11 +1,16 @@
 import React from "react";
-import "./style.css";
+import Navbar from "./Navbar";
+import Slider from "./Slider";
 
-export default function App() {
+function App() {
   return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happens :)</p>
+    <div className="App">
+      <div data-component="app-root">
+        <Navbar />
+        <Slider />
+      </div>
     </div>
   );
 }
+
+export default App;
