@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="author" content="Pison-tech.com">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="description" content="Web site created using create-react-app" />
+
+  <link rel='stylesheet' id='intuit-com-common-css-css' href='wp-content/plugins/vc_intuit_com/asset/common.css'
+    type='text/css' media='all' />
+  <link rel='stylesheet' id='intuit-com-bundle-css-css' href='wp-content/plugins/vc_intuit_com/asset/bundle.css'
+    type='text/css' media='all' />
+
+
+  <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]-->
+  <style type="text/css" data-type="vc_shortcodes-custom-css">
+    .vc_custom_1589857723552 {
+      margin-top: 1rem !important;
+    }
+  </style><noscript>
+    <style type="text/css">
+      .wpb_animate_when_almost_visible {
+        opacity: 1;
+      }
+    </style>
+  </noscript>
+  <link data-remove="true" async rel="alternate" href="index.html" hreflang="en-us" />
+
+  <script type='text/javascript' src='intuit/us_sbg_prod/Bootstrap.js'></script>
+  <!----- PAGE PROPERTIES START. -->
+  <input type='hidden' id='exp_bucket_val' value='control' />
+  <input type='hidden' id='is_campaign' value='0'>
+  <input type='hidden' id='flag_pricing_separated' value=''>
+  <input type='hidden' id='aag_exp_bucket_val' value='control' />
+  <input type='hidden' id='is_aag_campaign' value=''>
+
+  <script>
+    /*Live Person Starts Here*/
+    var lpSectionMobile = "";
+    var lpSectionDesktop = "";
+    /*Live Person Ends Here*/
+
+    /* App Dynamic key */
+    var appd_appkey = "AD-AAB-AAP-NJD";
+
+    /* Salesforce Constants Starts here*/
+    var Intuit = window.Intuit || {};
+    Intuit.Utils = Intuit.Utils || {};
+    Intuit.Utils.Constants = Intuit.Utils.Constants || {};
+    Intuit.Utils.Constants.SBGMServiceUrl = "https://sbgmarketing.api.intuit.com/";
+    Intuit.Utils.Constants.SBGMAuthKey = "Intuit_APIKey intuit_apikey=prdakyresPssbUgTk0rlcx3K9v9Q6tFvxIDs0i67";
+    Intuit.SBGMAuthKeyMktg = "Intuit_APIKey intuit_apikey=prdakyresPssbUgTk0rlcx3K9v9Q6tFvxIDs0i67";
+    Intuit.SBGMAuthKey = "Intuit_APIKey intuit_apikey=prdakyresPssbUgTk0rlcx3K9v9Q6tFvxIDs0i67";
+    Intuit.Utils.Constants.SBGMktgServiceEndpoint = "https://marketingplatform.api.intuit.com/";
+    	/* Salesforce Constants Ends here*/
+  </script>
+
+  <script type="text/javascript">
+    // number 1
+    if (typeof wa === 'undefined') {
+      wa = {}
+    }
+
+    // QBKS-21110
+    wa.pageLoadStart = new Date();
+
+    wa.siteName = "icom";
+    wa.siteGroup = "mktg";
+    wa.siteHost = "www";
+    var aryProd = "Ary Prod";
+    if (aryProd != "" && aryProd != "Ary Prod") {
+      wa.aryProducts = JSON.parse(aryProd);
+      wa.eventList = "prodView";
+    }
+
+
+  </script>
+
+  <!-- No metadata to track for datalayer -->
+  <!-- ivid -->
+  <script type="text/javascript">
+    function canHandleSameSiteAttribute(e) { for (var t = [/\(iP.+; CPU .*OS 12[_\d]*.*\) AppleWebKit\//, /^.*Macintosh;.*Mac OS X 10_14.*Version.*Safari.*$/, /(Chromium|Chrome)\/(5[1-9]|6[0-6])\.(\d+)(?:\.(\d+)|)(?:\.(\d+)|)/, /UCBrowser\/[0-9][0-1]?.(\d+)\.(\d+)[\.\d]*!/, /UCBrowser\/12.[0-9][0-2]?.(\d+)[\.\d]*!/, /UCBrowser\/12.13.[0-2][\.\d]*/, /(?:\b(MS)?IE\s+|\bTrident\/7\.0;.*\s+rv:)(\d+)/, /\bMSIE\s+7\.0;.*\bTrident\/(\d+)\.0/], i = 0; i < t.length; i++) { var n = t[i]; if (null !== e.match(n)) return !1 } return !0 } !function (e) { var t = e.Intuit || {}; if (t.Client = t.Client || {}, t.Client.ivid = function () { var e, t, i, n, o, a = [], d = "undefined" != typeof crypto && crypto.getRandomValues.bind(crypto) || "undefined" != typeof msCrypto && msCrypto.getRandomValues.bind(msCrypto); for (n = 0; n < 256; ++n)a[n] = (n + 256).toString(16).substr(1); return (i = (d ? (e = new Uint8Array(16), function () { return d(e), e }) : (t = new Array(16), function () { for (n = 0, r; n < 16; n++)0 == (3 & n) && (r = 4294967296 * Math.random()), t[n] = r >>> ((3 & n) << 3) & 255; return t }))())[6] = 15 & i[6] | 64, i[8] = 63 & i[8] | 128, o = 0, a[i[o++]] + a[i[o++]] + a[i[o++]] + a[i[o++]] + "-" + a[i[o++]] + a[i[o++]] + "-" + a[i[o++]] + a[i[o++]] + "-" + a[i[o++]] + a[i[o++]] + "-" + a[i[o++]] + a[i[o++]] + a[i[o++]] + a[i[o++]] + a[i[o++]] + a[i[o++]] }(), e.Intuit = t, canHandleSameSiteAttribute(navigator.userAgent)) if ("" === document.cookie.replace(/(?:(?:^|.*;\s*)ivid\s*\=\s*([^;]*).*$)|^.*$/, "$1").trim()) (i = new Date).setDate(i.getDate() + 1 + 1825), document.cookie = ["ivid=" + t.Client.ivid, "domain=" + (e.location.hostname.match(/([^.]+)\.\w{2,3}(?:\.\w{2})?$/) || [])[0], "expires=" + i.toGMTString(), "path%3d/index.html", "SameSite=None;Secure"].join("; "); else { var i, n = document.cookie.replace(/(?:(?:^|.*;\s*)ivid\s*\=\s*([^;]*).*$)|^.*$/, "$1").trim(); (i = new Date).setDate(i.getDate() + 1 + 1825), document.cookie = ["ivid=" + n, "domain=" + (e.location.hostname.match(/([^.]+)\.\w{2,3}(?:\.\w{2})?$/) || [])[0], "expires=" + i.toGMTString(), "path%3d/index.html", "SameSite=None;Secure"].join("; ") } else "" === document.cookie.replace(/(?:(?:^|.*;\s*)ivid\s*\=\s*([^;]*).*$)|^.*$/, "$1").trim() && ((i = new Date).setDate(i.getDate() + 1 + 1825), document.cookie = ["ivid=" + t.Client.ivid, "domain=" + (e.location.hostname.match(/([^.]+)\.\w{2,3}(?:\.\w{2})?$/) || [])[0], "expires=" + i.toGMTString(), "path=/"].join("; ")) }(window);
+  </script>
+  <!-- End of ivid -->
+  <script id='webAnalyticsInit' data-write-key="JkqkEqRmy39m2X5IB4albZRjCQHMiKTA" data-env="prod"
+    src="../quickbooks.intuit.com/analytics-core/track-event-lib-init.min.js" data-name='webAnalytics'
+    type='text/javascript' data-load-modules="performance"></script> <!-- Tracking 2.0 start -->
+  <script id="webAnalyticsConfig">
+    (function () {
+      var constants = window.intuit.tracking.ecs.webAnalytics.constants;
+      // TODO: These country codes list will be injected dynamically later.
+      var countryCodes = ["br", "za", "mx", "my", "sg", "fr"];
+
+      /**
+       * Trucate domain name and elimnate slashes for 1st level of the URL path
+       * Ex: URL = https://quickbooks.intuit.com/online/how-it-works/
+       * screen = online/how-it-works
+       * scopeArea = online
+       * page_geography = us (default for all pages except for "br","za","mx" pages)
+       * @param {String} pathname
+       * @returns {Object} returns screen,scopeArea and page_geography.
+       */
+      var fetchSiteContentProperties = function (pathname) {
+        var obj = { screen: 'homepage', scopeArea: 'homepage', pageGeography: 'us' };
+        var pathnameArr = pathname.replace(/\/+$/, '').split('index.html');
+        if (pathnameArr && pathnameArr.length > 1) {
+          // Checks whether the country code is present in the URL
+          if (countryCodes.indexOf(pathnameArr[1]) != -1) {
+            // If the first level of URL path is present in the given list of country codes then pass the same first level of URL path
+            obj.pageGeography = pathnameArr[1];
+            if (pathnameArr.length > 2) {
+              // If the first level of URL path is  present in the given list of country codes then pass the next level of URL path
+              obj.scopeArea = pathnameArr[2];
+              // If the first level of URL path is  present in the given list of country codes then pass the remaining full URL path
+              obj.screen = pathnameArr.splice(2).join('index.html');
+            }
+          } else {
+            // If the first level of URL path is not present in the given list of country codes then pass the same first level of URL path
+            obj.scopeArea = pathnameArr[1];
+            // If the first level of URL path is not present in the given list of country codes then pass the same full URL path
+            obj.screen = pathnameArr.splice(1).join('index.html');
+          }
+        }
+
+        return obj;
+      }
+      /**
+       * Get any Cookie value
+       * @param {string} CookieName to get the value
+       * @returns {string} Cookie value
+       */
+      var _getCookieValue = function _getCookieValue(name) {
+        if (!name) {
+          return null;
+        }
+
+        var matches = document.cookie.match(new RegExp("(?:^|; )".concat(name.replace(/([.$?*|{}()[\]\\/+^])/g, '\\$1'), "=([^;]*)")));
+        return matches ? matches[1] : null;
+      };
+      /**
+       * Sets Cookie with name, value and options provided
+       * @param {String} name Cookie Name
+       * @param {String} value Cookie Value
+       * @param {Object} options Options Object
+       */
+      var _setCookie = function _setCookie(name, value) {
+        var options = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+        var cookieOptions = Object.assign({}, {
+          path: '/'
+        }, options);
+        if (options.expires && cookieOptions.expires.toUTCString) {
+          cookieOptions.expires = cookieOptions.expires.toUTCString();
+        }
+        var updatedCookie = "".concat(name, "=").concat(value);
+        Object.keys(cookieOptions).forEach(function (optionKey) {
+          updatedCookie += "; ".concat(optionKey);
+          var optionValue = cookieOptions[optionKey];
+
+          if (optionValue !== true) {
+            updatedCookie += "=".concat(optionValue);
+          }
+        });
+        document.cookie = updatedCookie;
+      };
+
+      //pathname = /online/how-it-works/
+      var pathname = window.location.pathname;
+      var siteContentProperties = fetchSiteContentProperties(pathname);
+      var screen = siteContentProperties.screen;
+      var scopeArea = siteContentProperties.scopeArea;
+      var pageGeography = siteContentProperties.pageGeography;
+      var pageHierarchyExtended = (constants.org.SBSEG ? constants.org.SBSEG : '') +
+        '|' + (constants.purpose.MKTG ? constants.purpose.MKTG : '') +
+        '|' + (constants.scope.QB ? constants.scope.QB : '') +
+        '|' + (scopeArea ? scopeArea : '') +
+        '|' + (pageGeography ? pageGeography : '') +
+        '|' + (screen ? screen : '');
+
+      window.intuit.tracking.ecs.webAnalytics.initConfig = {
+        org: constants.org.SBSEG,
+        purpose: constants.purpose.MKTG,
+        scope: constants.scope.QB,
+        ecs_version: "3.3.0"
+      };
+      var pagePayload = {
+        "scope_area": scopeArea,
+        "screen": screen,
+        "page_geography": pageGeography,
+        "page_hierarchy_extended": pageHierarchyExtended,
+        "action": constants.uiAction.VIEWED,
+        "object": "screen",
+        "ui_action": constants.uiAction.VIEWED,
+        "ui_object": "screen",
+      };
+
+      var dataLayer = window.mktg_datalayer;
+      if (dataLayer && dataLayer.properties) {
+        var dataLayerProperties = dataLayer.properties;
+        pagePayload.content_industry = dataLayerProperties.content_industry;
+        pagePayload.content_audience = dataLayerProperties.content_audience;
+        pagePayload.content_job = dataLayerProperties.content_job;
+        pagePayload.page_category_parameter = dataLayerProperties.content_category;
+      }
+      window.intuit.tracking.ecs.webAnalytics.setApplicationTrackingContext('OICMS', '1.0', pagePayload.scope_area, pagePayload.screen);
+      window.intuit.tracking.ecs.webAnalytics.trackPage(pagePayload);
+
+      /**
+       * Traverses up the DOM path looking for HTML elements with attributes provided.
+       * If any targetAttribute is found the particular element is returned.
+       * @param {Object} startElement Element where traversing starts.
+       * @param {number} levelsToTraverse Max levels to traverse up after which traversing aborts.
+       * @param {Array} targetAttributes Array of attributes to look for.
+       * @returns {Object} Returns object if targetAttributes are matched else returns null.
+       */
+      var traverseUp = function (startElement, levelsToTraverse, targetAttributes) {
+        if (!startElement || (levelsToTraverse <= 0) || startElement.nodeName === 'BODY') {
+          return null;
+        }
+
+        if (startElement.dataset && Object.keys(startElement.dataset).length > 0) {
+          for (let i = 0; i < targetAttributes.length; i++) {
+            if (startElement.dataset[targetAttributes[i]]) {
+              return startElement;
+            }
+          }
+        }
+
+        return traverseUp(startElement.parentNode, levelsToTraverse - 1, targetAttributes);
+      };
+
+      /**
+       * Tracks events via Track Star Api.
+       * @param event Event triggered.
+       */
+      var trackEvent = function (event) {
+        var eventElement = traverseUp(event.target, 5, ['object', 'waLink']);
+        if (eventElement && eventElement.dataset) {
+          var customProps = {}, trackProps = {}, dataSet = eventElement.dataset;
+          // <a href="" data-object="product" data-object-detail="QB Live" data-action="product selected" data-ui-object="tab" data-ui-object-detail="Partner with a live bookkeeper" data-ui-action="clicked" data-ui-access-point="hero" data-custom-properties="key1|value1,key2|value2">
+          // customProps = {key1: value1, key2:value2} deriverd from values in <a href=""...data-custom-properties="key1|value1,key2|value2">
+          if (dataSet.customProperties) {
+            var customPropPipeArray = dataSet.customProperties.split(",");
+            customPropPipeArray.forEach(function (customPropElement) {
+              if (customPropElement) {
+                var customPropArray = customPropElement.split("|");
+                if (customPropArray.length == 2) {
+                  customProps[customPropArray[0]] = customPropArray[1];
+                }
+              }
+            });
+          }
+          // <a href=""... data-wa-link="toggle_fiftyper-diy"...>
+          // customProps {...customProps, "data-wa-link": "toogle_fiftyper-diy"}
+          if (dataSet.waLink) customProps["data-wa-link"] = dataSet.waLink;
+          // if <a href="" data-wa-link="..."> only have data-wa-link, 5 fields are tracked.
+          // else, more fields are tracked.
+          trackProps = (dataSet.waLink && !dataSet.object) ? {
+            "scope_area": scopeArea,
+            "screen": screen,
+            "page_geography": pageGeography,
+            "page_hierarchy_extended": pageHierarchyExtended,
+            "object": "walink",
+            "action": constants.uiAction.INTERACTED,
+            "ui_object": "walink",
+            "ui_action": constants.uiAction.INTERACTED,
+            "custom_properties": customProps
+          } : {
+              "scope_area": scopeArea,
+              "screen": screen,
+              "page_geography": pageGeography,
+              "page_hierarchy_extended": pageHierarchyExtended,
+              "object": dataSet.object,
+              "object_detail": dataSet.objectDetail,
+              "action": dataSet.action,
+              "ui_object": dataSet.uiObject,
+              "ui_object_detail": dataSet.uiObjectDetail,
+              "ui_action": dataSet.uiAction,
+              "ui_access_point": dataSet.uiAccessPoint,
+              "custom_properties": customProps
+            };
+
+          // track API from track-star => track(trackProps, eventProps)
+          // eventProps = {"targetElement": eventElement, "clickEvent": event}
+          // - eventElement: Anchor element object
+          // - event: MouseEvent from clicking
+          intuit.tracking.ecs.webAnalytics.track(trackProps, {
+            "targetElement": eventElement,
+            "clickEvent": event
+          });
+        }
+      };
+
+      window.addEventListener('DOMContentLoaded', function (event) {
+        document.addEventListener("click", trackEvent);
+      });
+    })();
+  </script>
+
+
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  <title>Pison Technology</title>
+</head>
+
+<body id="top" class="page-template-default page page-id-3430 wpb-js-composer js-comp-ver-5.7 vc_responsive">
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+
+
+  <script>
+    window.addEventListener('load',
+      function () {
+        var addStylesNodes = document.getElementsByClassName("deferred-styles");
+        for (var i = 0; i < addStylesNodes.length; i++) {
+          var replacement = document.createElement("div");
+          replacement.innerHTML = addStylesNodes[i].textContent;
+          document.body.appendChild(replacement);
+        }
+        for (var i = 0; i < addStylesNodes.length; i++) {
+          addStylesNodes[i].parentElement.removeChild(addStylesNodes[i]);
+        }
+      }
+    );
+  </script>
+  <script type='text/javascript' src='wp-content/plugins/vc_intuit_com/asset/common.js'></script>
+  <script type='text/javascript' src='wp-content/plugins/vc_intuit_com/asset/bundle.js'></script>
+  <script type='text/javascript' src='wp-content/themes/platinum/resources/assets/lib/jquery.min.js'></script>
+  </div> <!-- Closing <div data-component="app-root"> -->
+  </div> <!-- Closing <div id="app"> -->
+
+  <div style="display: none">
+    <style>
+      /*GLOBAL CHANGE */
+      h2.col-md-6 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 80%;
+        flex: 0 0 100%;
+        max-width: 80%;
+      }
+
+      .global-cta-link .label {
+        display: block;
+        color: #0077c5;
+      }
+
+      /*PROMO BANNER CHANGE */
+      @media (min-width: 769px) {
+        .b04-promo-banner.pro-connect:before {
+          background: linear-gradient(90deg, #99edff 0, #99edff 0%, rgba(153, 237, 255, .0) 0%, rgba(153, 237, 255, .0) 0%, rgba(153, 237, 255, .0) 0%, rgba(153, 237, 255, .0)) !Important;
+          background-image: linear-gradient(90deg, rgb(153, 237, 255) 0px, rgb(153, 237, 255) 0%, rgba(153, 237, 255, 0) 0%, rgba(153, 237, 255, 0) 0%, rgba(153, 237, 255, 0) 0%, rgba(153, 237, 255, 0)) !Important;
+          background-position-x: initial;
+          background-position-y: initial;
+          background-size: initial;
+          background-repeat-x: initial;
+          background-repeat-y: initial;
+          background-attachment: initial;
+          background-origin: initial;
+          background-clip: initial;
+          background-color: initial;
+        }
+      }
+
+      /*HERO BANNER CHANGE */
+      .c05-hero-block {
+        margin-top: -2px;
+      }
+
+      @media (max-width: 834px) {
+        #hero.c05-hero-block .title {
+          font-size: 3.5rem !important;
+          line-height: 4.3rem !important;
+        }
+      }
+
+      #hero.c05-hero-block .title {
+        width: 64rem;
+        font-size: 60px;
+        line-height: 76px;
+        font-weight: normal;
+      }
+
+      @media (min-width: 1025px) {
+        .c05-hero-block .header-wrapper:before {
+          opacity: 0;
+        }
+      }
+
+      @media (max-width:768px) {
+        .c05-hero-block {
+          overflow: visible;
+          position: relative;
+          height: 52rem;
+          margin-bottom: 2.5rem;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .c05-hero-block .title {
+          margin: 20px 0 20px;
+          max-width: 98%;
+        }
+      }
+
+      @media (min-width: 481px) and (max-width: 834px) {
+        #hero.c05-hero-block .title {
+          width: 75%;
+        }
+      }
+
+      @media (min-width: 481px) {
+        #hero.c05-hero-block .sub-title {
+          max-width: 35rem;
+          margin-bottom: 2rem;
+          width: 100%;
+        }
+      }
+
+      [data-component=global-button].transparent-dark.large {
+        line-height: 2.1rem;
+        padding: 1.5rem 1.3rem;
+        background-color: transparent;
+        border: 1px solid #fff;
+        border-radius: 3px;
+      }
+
+      [data-component=global-button].transparent-dark:hover {
+        background-color: rgba(244, 245, 248, 0.25);
+      }
+
+      .c05-hero-block .header-wrapper::before {
+        opacity: 0;
+      }
+
+      .c05-hero-block .cta-item {
+        width: auto;
+      }
+
+      .vc_custom_1589588274071 {
+        margin-top: 0rem !important;
+      }
+
+      @media (max-width: 1024px) {
+        .c05-hero-block .pagination-button {
+          display: none;
+        }
+      }
+
+      .c05-hero-block .content .sub-title-row {
+        flex-grow: 0;
+      }
+
+      .c05-hero-block .content {
+        justify-content: center;
+      }
+
+      [data-component="global-button"].blue.large {
+        padding: 1.5rem 1.3rem;
+      }
+
+      /* C16 component */
+      .c16-text-with-asset-block {
+        opacity: 1 !important;
+      }
+
+      .c16-text-with-asset-block .desc {
+        margin-bottom: 20px !important;
+        line-height: 24px;
+      }
+
+      .c16-text-with-asset-block .title-subtitle.style-font-demi {
+        font-weight: normal;
+      }
+
+      .c16-text-with-asset-block .title-subtitle {
+        font-size: 3.4rem;
+        line-height: 4.4rem;
+      }
+
+      #aidassist.c16-text-with-asset-block .title {
+        display: none;
+      }
+
+      @media (min-width: 481px) and (max-width: 1024px) {
+        .c16-text-with-asset-block .intro {
+          padding-top: 0rem;
+          padding-bottom: 2rem;
+        }
+
+        .c16-text-with-asset-block .title-subtitle {
+          margin: 0rem 0 2rem;
+        }
+      }
+
+      @media (max-width: 834px) {
+        .c16-text-with-asset-block .title-subtitle {
+          font-size: 2.8rem;
+          line-height: 3.6rem;
+        }
+
+        .c16-text-with-asset-block .visual-resource {
+          min-height: 27rem;
+        }
+      }
+
+      @media (max-width: 480px) {
+        #aidassist.c16-text-with-asset-block .intro {
+          padding-bottom: 2.5rem;
+        }
+
+        .c16-text-with-asset-block .title-subtitle {
+          margin: 2rem 0 1.6rem;
+        }
+      }
+
+      /*AREAS WE HIRE H10 CHANGE */
+      .h10-areas-that-we-hire .job-type-icon {
+        height: auto;
+        width: auto;
+        margin-right: 1.1rem;
+      }
+
+      /*TEXT BLOCK C15 CHANGE */
+      .c15-text-block .block-title .large-image img {
+        height: auto;
+        width: 100%;
+      }
+
+      .c15-text-block a {
+        margin-top: 2rem;
+      }
+
+      .c15-text-block .border-area {
+        min-height: auto;
+      }
+
+      /*TEXT BLOCK C15 - STATS - GRADIENT TEXT*/
+      .gradient .c15-text-block .subtitle-text {
+        background: rgb(5, 83, 147);
+        background: -moz-linear-gradient(90deg, rgba(5, 83, 147, 1) 0%, rgba(0, 119, 197, 1) 50%, rgba(0, 193, 191, 1) 100%);
+        background: -webkit-linear-gradient(90deg, rgba(5, 83, 147, 1) 0%, rgba(0, 119, 197, 1) 50%, rgba(0, 193, 191, 1) 100%);
+        background: linear-gradient(90deg, rgba(5, 83, 147, 1) 0%, rgba(0, 119, 197, 1) 50%, rgba(0, 193, 191, 1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#055393", endColorstr="#00c1bf", GradientType=1);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 7.2rem;
+        line-height: 9.2rem;
+        font-family: AvenirNextforINTUIT, Helvetica, Arial;
+        font-weight: 400;
+        letter-spacing: -2px;
+      }
+
+      @media (max-width: 768px) {
+        .gradient .c15-text-block .subtitle-text {
+          font-size: 6rem;
+          line-height: 7.6rem;
+        }
+      }
+
+      /*TECH STORIES C02 CHANGE */
+      @media (min-width: 769px) {
+        .h2 {
+          font-size: 3.4rem;
+          line-height: 4.4rem;
+          font-family: AvenirNextforINTUIT-bold, Helvetica, Arial;
+        }
+      }
+
+      @media (min-width: 769px) {
+        .h1 {
+          font-size: 3.4rem !important;
+          line-height: 4.4rem !important;
+        }
+      }
+
+      .h1 {
+        font-size: 2.8rem;
+        line-height: 3.6rem;
+        font-family: AvenirNextforINTUIT-Bold, Helvetica, Arial;
+      }
+
+      /*INTUIT LIFE H04 (DATA & SECURITY) CHANGE */
+      .h04-careers-intuit-life .bg .background {
+        object-fit: cover;
+      }
+
+      .h04-careers-intuit-life .follow-instagram .instagram-icon {
+        display: none;
+      }
+
+      .h04-careers-intuit-life .follow-instagram {
+        font-weight: bold;
+      }
+
+      .h04-careers-intuit-life .author {
+        font-size: 2.2rem;
+        font-family: AvenirNextforINTUIT-Bold, Helvetica, Arial;
+      }
+
+      .h04-careers-intuit-life .quote {
+        font-family: AvenirNextforINTUIT, Helvetica, Arial;
+        font-size: 2rem;
+        line-height: 2.8rem;
+      }
+
+      @media (min-width: 1199px) {
+        .h04-careers-intuit-life .slider-wrapper .slide {
+          padding: 11.2rem 6.4rem;
+        }
+      }
+
+      @media (max-width: 435px) {
+        .h04-careers-intuit-life .quote {
+          font-family: AvenirNextforINTUIT, Helvetica, Arial;
+          font-size: 1.5rem;
+          line-height: 2.8rem;
+        }
+      }
+    </style>
+
+    <script>
+      // The function actually applying the offset
+      function offsetAnchor() {
+        if (location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - 220);
+        }
+      }
+      // This will capture hash changes while on the page
+      window.addEventListener("hashchange", offsetAnchor);
+      // This is here so that when you enter the page with a hash,
+      // it can provide the offset in that case too. Having a timeout
+      // seems necessary to allow the browser to jump to the anchor first.
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+    <script type="text/javascript" data-no-instant=""
+      src="wp-content/themes/platinum/resources/assets/dist/adrum.js"></script>
+  </div>
+</body>
+
+</html>
